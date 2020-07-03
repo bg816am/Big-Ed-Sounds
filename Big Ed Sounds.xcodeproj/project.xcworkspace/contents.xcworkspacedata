@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Big Ed Sounds.xcodeproj">
+      location = "group:/Users/brianggould/Programming/XCode/Big Ed Sounds/Big Ed Sounds/Big Ed Assets/Audio/Big Ed Intro.m4a">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
