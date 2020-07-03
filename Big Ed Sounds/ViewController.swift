@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    var player: AVAudioPlayer!
+    
+    
+    @IBAction func tapEd(_ sender: UIButton) {
+        playSound(soundName: sender.currentTitle!)
+        
     }
-
-
+    
+    func playSound(soundName: String) {
+    let url = Bundle.main.url(forResource: soundName, withExtension: "m4a")
+    player = try! AVAudioPlayer(contentsOf: url!)
+    player.play()
+    }
 }
+
+
+
 

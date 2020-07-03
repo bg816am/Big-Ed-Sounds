@@ -13,6 +13,18 @@
 		578B33FA24AEB2CB00119D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578B33F824AEB2CB00119D99 /* Main.storyboard */; };
 		578B33FC24AEB2CC00119D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578B33FB24AEB2CC00119D99 /* Assets.xcassets */; };
 		578B33FF24AEB2CC00119D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578B33FD24AEB2CC00119D99 /* LaunchScreen.storyboard */; };
+		578B340724AEBFD100119D99 /* background_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578B340624AEBFD100119D99 /* background_3.jpg */; };
+		578B341824AFA50700119D99 /* BigEd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 578B340B24AFA50700119D99 /* BigEd.jpeg */; };
+		578B341924AFA50700119D99 /* Rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578B340C24AFA50700119D99 /* Rose.jpg */; };
+		578B341A24AFA50700119D99 /* Big Ed Speak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 578B340D24AFA50700119D99 /* Big Ed Speak.jpeg */; };
+		578B341B24AFA50700119D99 /* Big Ed Mayo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578B340E24AFA50700119D99 /* Big Ed Mayo.jpg */; };
+		578B341D24AFA50700119D99 /* Best View.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 578B341124AFA50700119D99 /* Best View.m4a */; };
+		578B341F24AFA50700119D99 /* Mayo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 578B341324AFA50700119D99 /* Mayo.m4a */; };
+		578B342024AFA50700119D99 /* Rose Eh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 578B341424AFA50700119D99 /* Rose Eh.m4a */; };
+		578B342224AFA50700119D99 /* Big Ed Dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 578B341624AFA50700119D99 /* Big Ed Dog.jpeg */; };
+		578B342324AFA50700119D99 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 578B341724AFA50700119D99 /* logo.jpeg */; };
+		578B343324AFD2CC00119D99 /* Big Ed Intro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 578B343224AFD2AA00119D99 /* Big Ed Intro.m4a */; };
+		578B343524AFD4D000119D99 /* background_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578B343424AFD4D000119D99 /* background_2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		578B33FB24AEB2CC00119D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578B33FE24AEB2CC00119D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578B340024AEB2CC00119D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578B340624AEBFD100119D99 /* background_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_3.jpg; path = "../../../Assets/App Brewery Massive Bundle/Image Assets/backgrounds/set 4/background_3.jpg"; sourceTree = "<group>"; };
+		578B340B24AFA50700119D99 /* BigEd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BigEd.jpeg; sourceTree = "<group>"; };
+		578B340C24AFA50700119D99 /* Rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rose.jpg; sourceTree = "<group>"; };
+		578B340D24AFA50700119D99 /* Big Ed Speak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Big Ed Speak.jpeg"; sourceTree = "<group>"; };
+		578B340E24AFA50700119D99 /* Big Ed Mayo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Big Ed Mayo.jpg"; sourceTree = "<group>"; };
+		578B341124AFA50700119D99 /* Best View.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Best View.m4a"; sourceTree = "<group>"; };
+		578B341324AFA50700119D99 /* Mayo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mayo.m4a; sourceTree = "<group>"; };
+		578B341424AFA50700119D99 /* Rose Eh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rose Eh.m4a"; sourceTree = "<group>"; };
+		578B341624AFA50700119D99 /* Big Ed Dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Big Ed Dog.jpeg"; sourceTree = "<group>"; };
+		578B341724AFA50700119D99 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+		578B343224AFD2AA00119D99 /* Big Ed Intro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Big Ed Intro.m4a"; sourceTree = "<group>"; };
+		578B343424AFD4D000119D99 /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +84,39 @@
 				578B33F424AEB2CB00119D99 /* SceneDelegate.swift */,
 				578B33F624AEB2CB00119D99 /* ViewController.swift */,
 				578B33F824AEB2CB00119D99 /* Main.storyboard */,
+				578B340624AEBFD100119D99 /* background_3.jpg */,
 				578B33FB24AEB2CC00119D99 /* Assets.xcassets */,
+				578B340A24AFA50700119D99 /* Big Ed Assets */,
 				578B33FD24AEB2CC00119D99 /* LaunchScreen.storyboard */,
+				578B343424AFD4D000119D99 /* background_2.jpg */,
 				578B340024AEB2CC00119D99 /* Info.plist */,
 			);
 			path = "Big Ed Sounds";
+			sourceTree = "<group>";
+		};
+		578B340A24AFA50700119D99 /* Big Ed Assets */ = {
+			isa = PBXGroup;
+			children = (
+				578B340B24AFA50700119D99 /* BigEd.jpeg */,
+				578B340C24AFA50700119D99 /* Rose.jpg */,
+				578B340D24AFA50700119D99 /* Big Ed Speak.jpeg */,
+				578B340E24AFA50700119D99 /* Big Ed Mayo.jpg */,
+				578B340F24AFA50700119D99 /* Audio */,
+				578B341624AFA50700119D99 /* Big Ed Dog.jpeg */,
+				578B341724AFA50700119D99 /* logo.jpeg */,
+			);
+			path = "Big Ed Assets";
+			sourceTree = "<group>";
+		};
+		578B340F24AFA50700119D99 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				578B343224AFD2AA00119D99 /* Big Ed Intro.m4a */,
+				578B341124AFA50700119D99 /* Best View.m4a */,
+				578B341324AFA50700119D99 /* Mayo.m4a */,
+				578B341424AFA50700119D99 /* Rose Eh.m4a */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +178,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				578B33FF24AEB2CC00119D99 /* LaunchScreen.storyboard in Resources */,
+				578B341F24AFA50700119D99 /* Mayo.m4a in Resources */,
+				578B341A24AFA50700119D99 /* Big Ed Speak.jpeg in Resources */,
+				578B343524AFD4D000119D99 /* background_2.jpg in Resources */,
+				578B341D24AFA50700119D99 /* Best View.m4a in Resources */,
+				578B340724AEBFD100119D99 /* background_3.jpg in Resources */,
+				578B341924AFA50700119D99 /* Rose.jpg in Resources */,
+				578B342224AFA50700119D99 /* Big Ed Dog.jpeg in Resources */,
+				578B341824AFA50700119D99 /* BigEd.jpeg in Resources */,
 				578B33FC24AEB2CC00119D99 /* Assets.xcassets in Resources */,
+				578B343324AFD2CC00119D99 /* Big Ed Intro.m4a in Resources */,
+				578B342024AFA50700119D99 /* Rose Eh.m4a in Resources */,
 				578B33FA24AEB2CB00119D99 /* Main.storyboard in Resources */,
+				578B342324AFA50700119D99 /* logo.jpeg in Resources */,
+				578B341B24AFA50700119D99 /* Big Ed Mayo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
