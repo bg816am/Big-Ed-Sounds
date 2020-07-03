@@ -13,6 +13,8 @@
 		578B33FA24AEB2CB00119D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578B33F824AEB2CB00119D99 /* Main.storyboard */; };
 		578B33FC24AEB2CC00119D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578B33FB24AEB2CC00119D99 /* Assets.xcassets */; };
 		578B33FF24AEB2CC00119D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578B33FD24AEB2CC00119D99 /* LaunchScreen.storyboard */; };
+		578B340724AEBFD100119D99 /* background_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578B340624AEBFD100119D99 /* background_3.jpg */; };
+		578B340924AF9DDC00119D99 /* Big Ed Assets in Resources */ = {isa = PBXBuildFile; fileRef = 578B340824AF9DDC00119D99 /* Big Ed Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		578B33FB24AEB2CC00119D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578B33FE24AEB2CC00119D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578B340024AEB2CC00119D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578B340624AEBFD100119D99 /* background_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_3.jpg; path = "../../../Assets/App Brewery Massive Bundle/Image Assets/backgrounds/set 4/background_3.jpg"; sourceTree = "<group>"; };
+		578B340824AF9DDC00119D99 /* Big Ed Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Big Ed Assets"; path = "../../../Assets/Big Ed Assets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 				578B33F424AEB2CB00119D99 /* SceneDelegate.swift */,
 				578B33F624AEB2CB00119D99 /* ViewController.swift */,
 				578B33F824AEB2CB00119D99 /* Main.storyboard */,
+				578B340624AEBFD100119D99 /* background_3.jpg */,
 				578B33FB24AEB2CC00119D99 /* Assets.xcassets */,
+				578B340824AF9DDC00119D99 /* Big Ed Assets */,
 				578B33FD24AEB2CC00119D99 /* LaunchScreen.storyboard */,
 				578B340024AEB2CC00119D99 /* Info.plist */,
 			);
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				578B33FF24AEB2CC00119D99 /* LaunchScreen.storyboard in Resources */,
+				578B340724AEBFD100119D99 /* background_3.jpg in Resources */,
 				578B33FC24AEB2CC00119D99 /* Assets.xcassets in Resources */,
 				578B33FA24AEB2CB00119D99 /* Main.storyboard in Resources */,
+				578B340924AF9DDC00119D99 /* Big Ed Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
