@@ -19,7 +19,7 @@
                                 <rect key="frame" x="-18" y="0.0" width="432" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press on BIg Ed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGf-yW-yHP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press on Big Ed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGf-yW-yHP">
                                 <rect key="frame" x="104" y="191" width="206" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
@@ -36,7 +36,10 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqQ-JR-yA9">
                                 <rect key="frame" x="44" y="338" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Ed Dog" image="Big Ed Dog.jpeg"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Big Ed Intro" image="Big Ed Dog.jpeg"/>
                                 <connections>
                                     <action selector="tapEd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEO-Hb-WNN"/>
                                 </connections>
@@ -48,7 +51,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-K4-ggi">
                                 <rect key="frame" x="44" y="665" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Ed Speak" image="Big Ed Speak.jpeg"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Best View" image="Big Ed Speak.jpeg"/>
                                 <connections>
                                     <action selector="tapEd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1xl-b7-wuh"/>
                                 </connections>
@@ -56,7 +62,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eag-5h-mOa">
                                 <rect key="frame" x="224" y="665" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rose" image="Rose.jpg"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Rose Eh" image="Rose.jpg"/>
                                 <connections>
                                     <action selector="tapEd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QN7-jW-bCB"/>
                                 </connections>
@@ -64,7 +73,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be9-9X-oIq">
                                 <rect key="frame" x="224" y="338" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Ed May" image="Big Ed Mayo.jpg"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Mayo" image="Big Ed Mayo.jpg"/>
                                 <connections>
                                     <action selector="tapEd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YDL-ap-kZR"/>
                                 </connections>

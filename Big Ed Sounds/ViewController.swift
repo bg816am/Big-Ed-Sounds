@@ -14,11 +14,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func tapEd(_ sender: UIButton) {
-        playSound()
+        playSound(soundName: sender.currentTitle!)
+        
     }
     
-    func playSound() {
-    let url = Bundle.main.url(forResource: "Best_View", withExtension: "m4a")
+    func playSound(soundName: String) {
+    let url = Bundle.main.url(forResource: soundName, withExtension: "m4a")
     player = try! AVAudioPlayer(contentsOf: url!)
     player.play()
     }
